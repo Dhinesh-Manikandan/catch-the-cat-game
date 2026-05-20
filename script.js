@@ -10,7 +10,7 @@ if (cat && scoreDisplay && startButton && stopButton && pauseButton) {
     let isPaused = false;
     let gameInterval;
     let gameTimeout;
-    const gameDuration = 10000; // 30 seconds
+    const gameDuration = 20000; // 20 seconds
     let currentPowerUp = null;
     let powerUpTimeout;
     let remainingTime;
